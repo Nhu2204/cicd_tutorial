@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER Tuan Thai "tuanthai@example.com"
 RUN apt update -y
 RUN apt install -y python3-pip python3-dev build-essential
